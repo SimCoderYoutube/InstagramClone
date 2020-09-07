@@ -11,8 +11,6 @@
 <br>
 
 ## ➕ Features
-***
-
 
 Currently the project has the following features:
   * expo boilerplate
@@ -30,8 +28,6 @@ Comming in the future:
 <br>
 
 ## 💻 Install
-***
-
 
 First you need to install Nodejs and npm, this is different depending on the OS you are running so it is easier to check the node [page](https://nodejs.org/en/download/)
 
@@ -50,7 +46,6 @@ You can check the first [video](https://www.youtube.com/watch?v=5S9HM6pprZo&t=2s
 <br>
 
 ## 📱 Usage
-***
 
 To Start expo all you have to do is run this line
 ```sh
@@ -62,14 +57,12 @@ expo start
 <br>
 
 ## 💙  question FAQ
-***
 
 If you have any question then please use the following [Forum](https://www.simcoder.com/forum/instagram/).
 
 <br>
 
 ## 👤 Author
-***
 
 **SimCoder**
 
@@ -79,14 +72,12 @@ If you have any question then please use the following [Forum](https://www.simco
 * Youtube: [SimCoder](https://www.youtube.com/channel/UCQ5xY26cw5Noh6poIE-VBog)
 
 ## 🌟 Show your support
-***
 
 
 Give a ⭐️ if this project helped you!
 
 
 ## 📝 License
-***
 
 Copyright © 2020 [SimCoder](https://github.com/simcoderYoutube).
 
