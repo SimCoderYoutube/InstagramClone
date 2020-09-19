@@ -14,9 +14,10 @@
 
 Currently the project has the following features:
   * expo boilerplate
+  * Auth system 
+  
 
 Comming in the future:
-* Auth system 
 * Post Images w/ descriptions
   * Take pictures directly in app
   * Choose from gallery
