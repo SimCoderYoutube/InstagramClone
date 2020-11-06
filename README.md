@@ -25,7 +25,7 @@ Currently the project has the following features:
   
 
 Comming in the future:
-   *Redesign
+  * Redesign
 
 <br>
 
