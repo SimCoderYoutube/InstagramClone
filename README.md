@@ -15,16 +15,17 @@
 Currently the project has the following features:
   * expo boilerplate
   * Auth system 
+  * Post Images w/ descriptions
+    * Take pictures directly in app
+    * Choose from gallery
+  * Profile page
+  * Follow/Unfollow users
+  * Feed in chronological order
+  * Search Users
   
 
 Comming in the future:
-* Post Images w/ descriptions
-  * Take pictures directly in app
-  * Choose from gallery
-* Profile page
-* Follow/Unfollow users
-* Feed in chronological order
-* Search Users
+   *Redesign
 
 <br>
 
