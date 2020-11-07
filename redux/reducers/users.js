@@ -2,7 +2,7 @@ import { USERS_DATA_STATE_CHANGE, USERS_POSTS_STATE_CHANGE, CLEAR_DATA } from ".
 
 const initialState = {
     users: [],
-    usersLoaded: 0,
+    usersFollowingLoaded: 0,
 }
 
 export const users = (state = initialState, action) => {
@@ -15,7 +15,7 @@ export const users = (state = initialState, action) => {
         case USERS_POSTS_STATE_CHANGE:
             return {
                 ...state,
-                usersLoaded: state.usersLoaded + 1,
+                usersFollowingLoaded: state.usersFollowingLoaded + 1,
                 users: state.users.map(user => user.uid === action.uid ?
                     { ...user, posts: action.posts } :
                     user
@@ -24,7 +24,7 @@ export const users = (state = initialState, action) => {
         case CLEAR_DATA:
             return {
                 users: [],
-                usersLoaded: 0
+                usersFollowingLoaded: 0
             }
         default:
             return state;
