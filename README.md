@@ -22,11 +22,11 @@ Currently the project has the following features:
   * Follow/Unfollow users
   * Feed in chronological order
   * Search Users
+  * Comment Posts
   
 
 Comming in the future:
   * Redesign
-
 <br>
 
 ## 💻 Install
