@@ -1,0 +1,1 @@
+{"version":3,"sources":["HeaderShownContext.tsx"],"names":["HeaderShownContext","React","createContext"],"mappings":";;;;;;;AAAA;;;;;;AAEA,MAAMA,kBAAkB,GAAGC,KAAK,CAACC,aAAN,CAAoB,KAApB,CAA3B;eAEeF,kB","sourcesContent":["import * as React from 'react';\n\nconst HeaderShownContext = React.createContext(false);\n\nexport default HeaderShownContext;\n"]}

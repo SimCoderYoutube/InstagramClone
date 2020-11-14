@@ -1,0 +1,29 @@
+// @flow
+import type { ViewProps } from "react-native/Libraries/Components/View/ViewPropTypes";
+
+export type SafeAreaViewForceInsetValue = "always" | "never";
+
+export type ForceInset = {|
+  top?: SafeAreaViewForceInsetValue,
+  bottom?: SafeAreaViewForceInsetValue,
+  left?: SafeAreaViewForceInsetValue,
+  right?: SafeAreaViewForceInsetValue,
+  horizontal?: SafeAreaViewForceInsetValue,
+  vertical?: SafeAreaViewForceInsetValue
+|};
+
+export type SafeAreaViewProps = $ReadOnly<{|
+  ...ViewProps,
+  forceInset?: ?ForceInset
+|}>;
+
+export default class SafeAreaView extends React$Component<SafeAreaViewProps> {}
+
+declare export function withSafeArea(
+  forceInset?: ?ForceInset
+): <T: React$ComponentType<*>>(WrappedComponent: T) => T;
+
+declare export function getInset(
+  value: 'horizontal' | 'right' | 'left' | 'vertical' | 'top' | 'bottom',
+  isLandscape: boolean
+): number

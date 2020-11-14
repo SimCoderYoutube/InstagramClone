@@ -1,0 +1,190 @@
+{
+  "name": "react-native-paper",
+  "index": "lib/module/index.js",
+  "mappings": {
+    "Colors": {
+      "path": "lib/module/styles/colors",
+      "name": "*"
+    },
+    "useTheme": {
+      "path": "lib/module/core/theming",
+      "name": "useTheme"
+    },
+    "withTheme": {
+      "path": "lib/module/core/theming",
+      "name": "withTheme"
+    },
+    "ThemeProvider": {
+      "path": "lib/module/core/theming",
+      "name": "ThemeProvider"
+    },
+    "Provider": {
+      "path": "lib/module/core/Provider",
+      "name": "default"
+    },
+    "DefaultTheme": {
+      "path": "lib/module/styles/DefaultTheme",
+      "name": "default"
+    },
+    "DarkTheme": {
+      "path": "lib/module/styles/DarkTheme",
+      "name": "default"
+    },
+    "shadow": {
+      "path": "lib/module/styles/shadow",
+      "name": "default"
+    },
+    "overlay": {
+      "path": "lib/module/styles/overlay",
+      "name": "default"
+    },
+    "configureFonts": {
+      "path": "lib/module/styles/fonts",
+      "name": "default"
+    },
+    "Avatar": {
+      "path": "lib/module/components/Avatar/Avatar",
+      "name": "*"
+    },
+    "List": {
+      "path": "lib/module/components/List/List",
+      "name": "*"
+    },
+    "Drawer": {
+      "path": "lib/module/components/Drawer/Drawer",
+      "name": "*"
+    },
+    "Badge": {
+      "path": "lib/module/components/Badge",
+      "name": "default"
+    },
+    "ActivityIndicator": {
+      "path": "lib/module/components/ActivityIndicator",
+      "name": "default"
+    },
+    "Banner": {
+      "path": "lib/module/components/Banner",
+      "name": "default"
+    },
+    "BottomNavigation": {
+      "path": "lib/module/components/BottomNavigation",
+      "name": "default"
+    },
+    "Button": {
+      "path": "lib/module/components/Button",
+      "name": "default"
+    },
+    "Card": {
+      "path": "lib/module/components/Card/Card",
+      "name": "default"
+    },
+    "Checkbox": {
+      "path": "lib/module/components/Checkbox/Checkbox",
+      "name": "default"
+    },
+    "Chip": {
+      "path": "lib/module/components/Chip",
+      "name": "default"
+    },
+    "DataTable": {
+      "path": "lib/module/components/DataTable/DataTable",
+      "name": "default"
+    },
+    "Dialog": {
+      "path": "lib/module/components/Dialog/Dialog",
+      "name": "default"
+    },
+    "Divider": {
+      "path": "lib/module/components/Divider",
+      "name": "default"
+    },
+    "FAB": {
+      "path": "lib/module/components/FAB/FAB",
+      "name": "default"
+    },
+    "HelperText": {
+      "path": "lib/module/components/HelperText",
+      "name": "default"
+    },
+    "IconButton": {
+      "path": "lib/module/components/IconButton",
+      "name": "default"
+    },
+    "Menu": {
+      "path": "lib/module/components/Menu/Menu",
+      "name": "default"
+    },
+    "Modal": {
+      "path": "lib/module/components/Modal",
+      "name": "default"
+    },
+    "Portal": {
+      "path": "lib/module/components/Portal/Portal",
+      "name": "default"
+    },
+    "ProgressBar": {
+      "path": "lib/module/components/ProgressBar",
+      "name": "default"
+    },
+    "RadioButton": {
+      "path": "lib/module/components/RadioButton/RadioButton",
+      "name": "default"
+    },
+    "Searchbar": {
+      "path": "lib/module/components/Searchbar",
+      "name": "default"
+    },
+    "Snackbar": {
+      "path": "lib/module/components/Snackbar",
+      "name": "default"
+    },
+    "Surface": {
+      "path": "lib/module/components/Surface",
+      "name": "default"
+    },
+    "Switch": {
+      "path": "lib/module/components/Switch",
+      "name": "default"
+    },
+    "Appbar": {
+      "path": "lib/module/components/Appbar/Appbar",
+      "name": "default"
+    },
+    "TouchableRipple": {
+      "path": "lib/module/components/TouchableRipple/TouchableRipple",
+      "name": "default"
+    },
+    "TextInput": {
+      "path": "lib/module/components/TextInput/TextInput",
+      "name": "default"
+    },
+    "ToggleButton": {
+      "path": "lib/module/components/ToggleButton/ToggleButton",
+      "name": "default"
+    },
+    "Caption": {
+      "path": "lib/module/components/Typography/Caption",
+      "name": "default"
+    },
+    "Headline": {
+      "path": "lib/module/components/Typography/Headline",
+      "name": "default"
+    },
+    "Paragraph": {
+      "path": "lib/module/components/Typography/Paragraph",
+      "name": "default"
+    },
+    "Subheading": {
+      "path": "lib/module/components/Typography/Subheading",
+      "name": "default"
+    },
+    "Title": {
+      "path": "lib/module/components/Typography/Title",
+      "name": "default"
+    },
+    "Text": {
+      "path": "lib/module/components/Typography/Text",
+      "name": "default"
+    }
+  }
+}

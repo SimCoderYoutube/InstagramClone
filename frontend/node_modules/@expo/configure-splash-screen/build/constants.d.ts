@@ -1,0 +1,48 @@
+import { ColorDescriptor } from 'color-string';
+export declare enum ResizeMode {
+    CONTAIN = "contain",
+    COVER = "cover",
+    NATIVE = "native"
+}
+export declare enum Platform {
+    ANDROID = "android",
+    IOS = "ios",
+    ALL = "all"
+}
+export declare enum StatusBarStyle {
+    DEFAULT = "default",
+    LIGHT_CONTENT = "light-content",
+    DARK_CONTENT = "dark-content"
+}
+/**
+ * These arguments have to be provided by the user or omitted if possible.
+ */
+export interface Arguments {
+    backgroundColor: ColorDescriptor;
+    /**
+     * Absolute path
+     */
+    imagePath?: string;
+    darkModeBackgroundColor?: ColorDescriptor;
+    /**
+     * Absolute path
+     */
+    darkModeImagePath?: string;
+}
+/**
+ * These might be optionally provided by the user. There are default values for them.
+ */
+export interface StatusBarOptions {
+    statusBarHidden: boolean;
+    statusBarStyle: StatusBarStyle;
+}
+/**
+ * These might be optionally provided by the user. There are default values for them.
+ * Android only
+ */
+export interface AndroidOnlyStatusBarOptions {
+    darkModeStatusBarStyle?: StatusBarStyle;
+    statusBarTranslucent?: true;
+    statusBarBackgroundColor?: ColorDescriptor;
+    darkModeStatusBarBackgroundColor?: ColorDescriptor;
+}

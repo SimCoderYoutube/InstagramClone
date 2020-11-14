@@ -1,0 +1,38 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.8.0",
+    "@react-navigation/material-bottom-tabs": "^5.2.16",
+    "@react-navigation/native": "^5.7.3",
+    "@react-navigation/stack": "^5.9.0",
+    "expo": "~38.0.8",
+    "expo-status-bar": "^1.0.2",
+    "firebase": "7.9.0",
+    "react": "~16.11.0",
+    "react-dom": "~16.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-paper": "^4.2.0",
+    "react-native-screens": "^2.10.1",
+    "react-native-vector-icons": "^7.1.0",
+    "react-native-web": "~0.11.7",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "expo-camera": "~8.3.1",
+    "expo-image-picker": "~8.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-expo": "~8.1.0"
+  },
+  "private": true
+}

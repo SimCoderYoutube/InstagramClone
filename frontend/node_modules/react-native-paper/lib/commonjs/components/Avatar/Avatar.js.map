@@ -1,0 +1,1 @@
+{"version":3,"sources":["Avatar.tsx"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;AACA;;AAGA;;AAGA","sourcesContent":["// @component ./AvatarIcon.tsx\nexport { default as Icon } from './AvatarIcon';\n\n// @component ./AvatarImage.tsx\nexport { default as Image } from './AvatarImage';\n\n// @component ./AvatarText.tsx\nexport { default as Text } from './AvatarText';\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["HeaderHeightContext.tsx"],"names":["React","createContext","undefined"],"mappings":"AAAA,OAAO,KAAKA,KAAZ,MAAuB,OAAvB;AAEA,eAAeA,KAAK,CAACC,aAAN,CAAwCC,SAAxC,CAAf","sourcesContent":["import * as React from 'react';\n\nexport default React.createContext<number | undefined>(undefined);\n"]}
