@@ -1,0 +1,14 @@
+{
+  "extends": "/Users/tomasz/Work/expo/packages/@unimodules/core/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "typeRoots": [
+      "./node_modules/@types",
+      "../node_modules/@types",
+      "../../node_modules/@types",
+      "../../../node_modules/@types",
+      "../../../../node_modules/@types",
+      "/Users/tomasz/Work/expo/packages/expo-module-scripts/ts-declarations"
+    ]
+  }
+}

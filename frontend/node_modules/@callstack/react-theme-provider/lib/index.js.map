@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":[],"mappings":";;;;AAEA","sourcesContent":["/* @flow */\n\nimport createTheming from './createTheming';\n\nexport { createTheming };\nexport type { ThemingType } from './createTheming';\n"],"file":"index.js"}

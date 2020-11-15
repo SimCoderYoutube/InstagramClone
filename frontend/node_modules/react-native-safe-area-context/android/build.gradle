@@ -1,0 +1,46 @@
+def getExtOrDefault(name, defaultValue) {
+  return rootProject.ext.has(name) ? rootProject.ext.get(name) : defaultValue
+}
+
+buildscript {
+    // The Android Gradle plugin is only required when opening the android folder stand-alone.
+    // This avoids unnecessary downloads and potential conflicts when the library is included as a
+    // module dependency in an application project.
+    if (project == rootProject) {
+        repositories {
+            google()
+            jcenter()
+        }
+        dependencies {
+            classpath 'com.android.tools.build:gradle:3.5.0'
+        }
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+  compileSdkVersion getExtOrDefault('compileSdkVersion', 28)
+
+  defaultConfig {
+    minSdkVersion getExtOrDefault('minSdkVersion', 16)
+    targetSdkVersion getExtOrDefault('targetSdkVersion', 28)
+  }
+  lintOptions{
+    abortOnError false
+  }
+}
+
+repositories {
+    google()
+    maven {
+        // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+        url "$rootDir/../node_modules/react-native/android"
+    }
+    jcenter()
+}
+
+dependencies {
+  //noinspection GradleDynamicVersion
+  implementation 'com.facebook.react:react-native:+'
+}

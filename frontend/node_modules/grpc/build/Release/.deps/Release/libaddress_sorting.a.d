@@ -1,0 +1,1 @@
+cmd_Release/libaddress_sorting.a := ln -f "Release/obj.target/libaddress_sorting.a" "Release/libaddress_sorting.a" 2>/dev/null || (rm -rf "Release/libaddress_sorting.a" && cp -af "Release/obj.target/libaddress_sorting.a" "Release/libaddress_sorting.a")

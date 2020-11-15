@@ -1,0 +1,2 @@
+var emitters;try{emitters=require('@unimodules/react-native-adapter').SyntheticPlatformEmitter;}catch(_){emitters=require('./emitter-polyfill').default;}module.exports=emitters;
+//# sourceMappingURL=SyntheticPlatformEmitter.js.map

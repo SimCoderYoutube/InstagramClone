@@ -1,0 +1,1 @@
+{"version":3,"sources":["GestureHandler.android.tsx"],"names":[],"mappings":"AAAA,cAAc,wBAAd","sourcesContent":["export * from './GestureHandlerNative';\n"]}

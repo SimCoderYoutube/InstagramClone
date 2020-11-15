@@ -1,0 +1,13 @@
+{
+  "extends": "/Users/tomasz/Work/expo/packages/expo-image-picker/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "typeRoots": [
+      "./node_modules/@types",
+      "../node_modules/@types",
+      "../../node_modules/@types",
+      "../../../node_modules/@types",
+      "/Users/tomasz/Work/expo/packages/expo-module-scripts/ts-declarations"
+    ]
+  }
+}
