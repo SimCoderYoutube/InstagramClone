@@ -99,7 +99,7 @@ export function fetchUsersFollowingPosts(uid) {
             .orderBy("creation", "asc")
             .get()
             .then((snapshot) => {
-                const uid = snapshot.query.EP.path.segments[1];
+                const uid = snapshot.query._.C_.path.segments[1]
                 const user = getState().usersState.users.find(el => el.uid === uid);
 
 
