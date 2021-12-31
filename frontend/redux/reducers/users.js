@@ -1,4 +1,4 @@
-import { USERS_DATA_STATE_CHANGE, USERS_POSTS_STATE_CHANGE, USERS_LIKES_STATE_CHANGE, CLEAR_DATA } from "../constants"
+import { CLEAR_DATA, USERS_DATA_STATE_CHANGE, USERS_LIKES_STATE_CHANGE, USERS_POSTS_STATE_CHANGE } from "../constants"
 
 const initialState = {
     users: [],
@@ -22,8 +22,8 @@ export const users = (state = initialState, action) => {
         case USERS_LIKES_STATE_CHANGE:
             return {
                 ...state,
-                feed: state.feed.map(post => post.id == action.postId ? 
-                    {...post, currentUserLike: action.currentUserLike} :
+                feed: state.feed.map(post => post.id == action.postId ?
+                    { ...post, currentUserLike: action.currentUserLike } :
                     post)
             }
         case CLEAR_DATA:
