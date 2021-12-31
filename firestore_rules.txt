@@ -1,0 +1,53 @@
+service cloud.firestore {
+  match /databases/{database}/documents {
+      function isAdmin() {
+              return exists(/databases/$(database)/documents/admin/$(request.auth.uid))
+      }
+    match /users/{user} {
+      allow read: if true;
+      allow write, update: if request.auth.uid == user;
+        allow write, update: if isAdmin();
+    }
+    match /posts/{user}/userPosts {
+      allow read: if true;
+      allow write: if request.auth.uid == user;
+        allow write, update: if isAdmin();
+
+    }
+    match /posts/{user}/userPosts/{postId} {
+      allow read: if true;
+      allow write: if request.auth.uid == user;
+        allow write, update: if isAdmin();
+      
+    }
+    match /posts/{user}/userPosts/{postId}/likes/{likeId} {
+      allow read: if true;
+      allow write: if request.auth.uid == likeId;
+        allow write, update: if isAdmin();
+    }
+    match /posts/{user}/userPosts/{postId}/comments/{commentId} {
+      allow read: if true;
+      allow write: if request.auth.uid != null;
+        allow write, update: if isAdmin();
+    }
+    
+    match /feed/{documents=**}{
+      allow read, write: if request.auth.uid != null;
+    }
+    match /following/{user}/userFollowing/{following} {
+      allow read: if true;
+      allow write: if user == request.auth.uid;
+
+    }
+      match /admin/{documents=**}{
+        allow write, update, read: if false;
+      }
+    match /chats/{chatId}{
+      allow read, update: if request.auth.uid in resource.data.users;
+      allow write: if request.auth.uid != null;
+    }
+    match /chats/{chatId}/messages/{documents=**}{
+      allow read, write: if true;
+    }
+  }
+}
