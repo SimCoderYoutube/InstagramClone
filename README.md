@@ -1,116 +1,116 @@
-# Welcome to InstagramClone 👋
-![Version](https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![Version](https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![runs with expo](https://img.shields.io/badge/Runs%20with%20Expo-000.svg?style=flat-square&logo=EXPO&labelColor=f3f3f3&logoColor=000)](https://expo.io/)
 [![image](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/simcoder_here)
 [![image](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/simcoder_here/)
 [![image](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCQ5xY26cw5Noh6poIE-VBog)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/simcoder)
 
-> Main repository of the SimCoder's youtube series &#34;Make an App like INSTAGRAM&#34;
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/SimCoderYoutube/InstagramClone">
+    <img src="images/simcoder.png" alt="Logo" width="120" height="120">
+  </a>
 
-Make a web app Like INSTAGRAM
+  <h3 align="center">Instagram Clone</h3>
 
-I'll show you how you can do this in the simplest way and terms possible.
+  <p align="center">
+    A Instagram clone app made with React Native and firebase
+    <br />
+    <a href="https://github.com/SimCoderYoutube/InstagramClone/wiki"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/SimCoderYoutube/InstagramClone/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/SimCoderYoutube/InstagramClone/issues">Request Feature</a>
+  </p>
+</p>
 
-By the end of this series you'll have learned how the big companies do it and will be able to do the same, you not only will be able to do this app, but you'll be able to put what you learn into your very own projects!
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#support">Support</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-Any question, ask me in the Forum, every question gets an answer! http://www.simcoder.com/forum
+<!-- ABOUT THE PROJECT -->
 
-This project will be made using react native, firebase firestore, firebase storage, redux, expo, along with a lot of other packages and technologies which will help us get this Instagram clone app up and running as fast as possible.
+## ℹ️ About The Project
 
-### 📺 [**View the youtube tutorial series here**](https://www.youtube.com/watch?v=xE8UEX7vXVQ&list=PLxabZQCAe5fgatwOQny9wKJVs4YD6xkf1)
+![alt text](images/mockup.png "Title")
 
-### 😎 [**Get the premium version of this project**](https://www.simcoder.com/product/instagram-redesign/)
-<br>
+This repo contains the project made in my youtube chanel called simcoder. This project is a clone of the Instagram android app.
 
-## ➕ Features
+It is made using React Native with Expo using firebase services (authentication, firestore and storage).
+The admin panel is made with ReactJS.
+The backend is all NodeJS
 
-Currently the project has the following features:
-  * expo boilerplate
-  * Auth system 
-  * Post Images w/ descriptions
-    * Take pictures directly in app
-    * Choose from gallery
-  * Profile page
-  * Follow/Unfollow users
-  * Feed in chronological order
-  * Search Users
-  * Comment Posts
-  * Comment Likes
-  * Redesign
-  
-<br>
+In the [master](https://github.com/SimCoderYoutube/InstagramClone/tree/master) branch you have the redesign project which I was previously selling in my website, however you still have access to the youtube series repo in the [youtube_series](https://github.com/SimCoderYoutube/InstagramClone/tree/youtube_series)
 
-## 💻 Install
+You can follow the youtube series in the following [link](https://www.youtube.com/watch?v=xE8UEX7vXVQ&list=PLxabZQCAe5fgatwOQny9wKJVs4YD6xkf1)
 
-First you need to install Nodejs and npm, this is different depending on the OS you are running so it is easier to check the node [page](https://nodejs.org/en/download/)
+## 🆕 Getting Started
 
-Install [expo](https://expo.io/learn), if it fails run you might need to run this with sudo
-```sh
-npm install expo-cli --global
-```
+- ### **Prerequisites**
 
-Install the needed packages while in the root folder of the project
-```sh
-npm install
-```
+  - [React Native](https://reactnative.dev/)
+  - [Expo](https://expo.dev/)
+  - [Firebase](https://firebase.google.com/)
 
+<!-- GETTING STARTED -->
 
-Install firebase tools
-```sh
-npm install -g firebase-tools
-```
+- ### **Installation**
 
-Deploy the project to yout firebase projhect (make sure to have billing enabled for that project). copy the backend/functions/index.js into a different place
-```sh
-cd backend
-firebase login
-firebase init (choose functions, javascript, EsLint and install deplendencies)
-```
+  In order to deploy the project you'll need to follow the [wiki page](https://github.com/SimCoderYoutube/InstagramClone/wiki/Setup-your-project) dedicated to this effect.
 
-Copy the index.js into the place of the new index.js
-```sh
-firebase deploy
-```
+## 🚧 Roadmap
 
-You can check the first [video](https://www.youtube.com/watch?v=5S9HM6pprZo&t=2s) on this series to learn how to do it easily
+See the [open issues](https://github.com/SimCoderYoutube/InstagramClone/issues) for a list of proposed features (and known issues).
 
-<br>
+<!-- CONTRIBUTING -->
 
-## 📱 Usage
+## ➕ Contributing
 
-To Start expo all you have to do is run this line
-```sh
-expo start
-```
-
->If you want to run on android you'll need to enable developer options and USB Debugging on your device
-
-<br>
-
-## 💙  question FAQ
-
-If you have any question then please use the following [Forum](https://www.simcoder.com/forum/instagram/).
-
-<br>
-
-## 👤 Author
-
-**SimCoder**
-
-* Website: www.simcoder.com
-* Twitter: [@simcoder\_here](https://twitter.com/simcoder\_here)
-* Github: [@simcoderYoutube](https://github.com/simcoderYoutube)
-* Youtube: [SimCoder](https://www.youtube.com/channel/UCQ5xY26cw5Noh6poIE-VBog)
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**. Please check the [Wiki](https://github.com/SimCoderYoutube/InstagramClone/wiki/How-to-Contribute)
 
 ## 🌟 Show your support
 
-
 Give a ⭐️ if this project helped you!
 
+And don't forget to subscribe to the [youtube chanel](https://www.youtube.com/c/SimpleCoder?sub_confirmation=1)
 
 ## 📝 License
 
-Copyright © 2020 [SimCoder](https://github.com/simcoderYoutube).
+Copyright © 2021 [SimCoder](https://github.com/simcoderYoutube).
 
 This project is [Apache License 2.0](https://github.com/SimCoderYoutube/InstagramClone/blob/master/LICENSE) licensed. Some of the dependencies are licensed differently.
+
+<!-- CONTACT -->
+
+## 👤 Contact
+
+**SimCoder**
+
+- Website: www.simcoder.com
+- Twitter: [@simcoder_here](https://twitter.com/simcoder_here)
+- Github: [@simcoderYoutube](https://github.com/simcoderYoutube)
+- Youtube: [SimCoder](https://www.youtube.com/channel/UCQ5xY26cw5Noh6poIE-VBog)
