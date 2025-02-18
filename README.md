@@ -99,6 +99,7 @@ Give a ⭐️ if this project helped you!
 And don't forget to subscribe to the [youtube chanel](https://www.youtube.com/c/SimpleCoder?sub_confirmation=1)
 
 ## 📝 License
+good
 
 Copyright © 2021 [SimCoder](https://github.com/simcoderYoutube).
 
