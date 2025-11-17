@@ -54,7 +54,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## ℹ️ About The Project
+## BAM OFFICIAL
 
 ![alt text](images/mockup.png "Title")
 
