@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "instagram",
-    "slug": "instagram",
+    "name": "crgram",
+    "slug": "crgram",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/logo.png",
@@ -18,7 +18,7 @@
     ],
     "android": {
       "useNextNotificationsApi": true,
-      "package": "com.instagram.simcoder",
+      "package": "com.crgam.app",
       "googleServicesFile": "./google-services.json",
       "config": {
         "googleSignIn": {
@@ -29,7 +29,7 @@
     "ios": {
       "buildNumber": "1.0.0",
       "supportsTablet": true,
-      "bundleIdentifier": "com.instagram.simcoder",
+      "bundleIdentifier": "com.crgam.app",
       "config": {
         "googleSignIn": {
           "reservedClientId": "****"
